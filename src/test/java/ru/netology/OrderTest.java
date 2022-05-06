@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class OrderTest { //Версия 101.0.4951.54
 
-    private WebDriver driver;
+    WebDriver driver;
 
     @BeforeAll
     static void setupClass() {
@@ -29,7 +29,7 @@ public class OrderTest { //Версия 101.0.4951.54
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
     }
 
     @AfterEach
