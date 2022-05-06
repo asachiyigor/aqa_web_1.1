@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38d371c9-8c1f-49e4-869d-9e92110fec79" name="Changes" comment="Driver Management">
+    <list default="true" id="38d371c9-8c1f-49e4-869d-9e92110fec79" name="Changes" comment="+ options">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651829376846</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ options">
+      <created>1651830005042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651830005042</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="driver + README.md" />
     <MESSAGE value="Driver Management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver Management" />
+    <MESSAGE value="+ options" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ options" />
   </component>
 </project>
