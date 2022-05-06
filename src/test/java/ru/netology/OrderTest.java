@@ -18,7 +18,7 @@ public class OrderTest { //Версия 101.0.4951.54
 
     @BeforeAll
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "D:/IT/chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
     }
 
     @BeforeEach
