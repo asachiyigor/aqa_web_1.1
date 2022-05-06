@@ -39,14 +39,15 @@ public class OrderTest { //Версия 101.0.4951.54
     }
 
     @Test
+    @DisplayName("Happy Path")
     public void test() {
 
         driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0)
-                .sendKeys("Асачий Игорь");
+                .sendKeys("Вася Пупкин");
         elements.get(1)
-                .sendKeys("+79119962069");
+                .sendKeys("+79119999999");
         driver.findElement(By.className("checkbox__box"))
               .click();
         driver.findElement(By.className("button__content"))
