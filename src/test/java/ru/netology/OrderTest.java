@@ -1,5 +1,6 @@
 package ru.netology;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,8 +18,9 @@ public class OrderTest { //Версия 101.0.4951.54
     private WebDriver driver;
 
     @BeforeAll
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+    static void setupClass() {
+        WebDriverManager.chromedriver()
+                        .setup();
     }
 
     @BeforeEach
