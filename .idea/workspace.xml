@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38d371c9-8c1f-49e4-869d-9e92110fec79" name="Changes" comment="+ 2 task">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTestNegative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTestNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTestNegative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,27 +96,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.AQA_WEB [test]">
-    <configuration name="AQA_WEB [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="testClasses" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="AQA_WEB [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,7 +117,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OrderTestNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrderTestNegative.shouldShowErrorInvalidNameEnglishName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +130,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.OrderTestNegative&quot;" />
+            <option value="&quot;ru.netology.OrderTestNegative.shouldShowErrorInvalidNameEnglishName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderTestNegative.shouldShowErrorInvalidPhoneFieldEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.OrderTestNegative.shouldShowErrorInvalidPhoneFieldEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AQA_WEB [test]" />
         <item itemvalue="Gradle.OrderTestNegative.shouldShowErrorInvalidPhoneStartsFrom8" />
         <item itemvalue="Gradle.OrderTestNegative.shouldShowErrorInvalidPhoneFieldMoreDigits" />
-        <item itemvalue="Gradle.AQA_WEB [test]" />
-        <item itemvalue="Gradle.AQA_WEB [testClasses]" />
-        <item itemvalue="Gradle.OrderTestNegative" />
+        <item itemvalue="Gradle.OrderTestNegative.shouldShowErrorInvalidPhoneFieldEmpty" />
+        <item itemvalue="Gradle.OrderTestNegative.shouldShowErrorInvalidNameEnglishName" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651830188049</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="+ 2 task">
+      <created>1651833618010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651833618011</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
