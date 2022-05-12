@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38d371c9-8c1f-49e4-869d-9e92110fec79" name="Changes" comment="+ 2 task">
+    <list default="true" id="38d371c9-8c1f-49e4-869d-9e92110fec79" name="Changes" comment="+ 2 task update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTestNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/OrderTestNegative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651833618011</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="+ 2 task update">
+      <created>1651949967997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651949967997</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +298,7 @@
     <MESSAGE value="+ options" />
     <MESSAGE value="+ &quot;io.github.bonigarcia:webdrivermanager:5.1.1&quot;" />
     <MESSAGE value="+ 2 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ 2 task" />
+    <MESSAGE value="+ 2 task update" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ 2 task update" />
   </component>
 </project>
